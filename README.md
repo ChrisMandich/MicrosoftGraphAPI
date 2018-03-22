@@ -27,6 +27,7 @@ Step 1d: Save (Copy Application Id / Client ID)
 ##### Example: 
 
 ```$results = Invoke-RestMethod -Uri 'https://graph.microsoft.com/v1.0/me/mailFolders/' -Headers $bearer```
+
 ```$results.value | select displayName, id```
 
 #### Graph API Resources:
